@@ -1,0 +1,250 @@
+@charset 'UTF-8';
+body .content .content-top {
+  width: 1200px;
+  margin: 0 auto;
+}
+body .content .content-top > .nav {
+  height: 60px;
+  line-height: 60px;
+  margin: 20px 0;
+}
+body .content .content-top > .nav > li {
+  float: left;
+}
+body .content .content-top > .nav > li:not(:last-child) {
+  margin-right: 20px;
+}
+body .content .content-top > .nav .right ul li {
+  float: right;
+}
+body .content .content-top > .nav .right ul li input {
+  width: 150px;
+  height: 50px;
+  border: 1px solid #ccc;
+  padding: 0 5px;
+  font-size: 14px;
+  color: #ccc;
+}
+body .content .content-top > .nav .right ul li input:focus {
+  outline: none;
+}
+body .content .content-top > .nav .right ul li input:hover {
+  border: 1px solid #ff6700;
+}
+body .content .content-top > .nav .right ul li span {
+  display: block;
+  width: 70px;
+  height: 50px;
+  background-color: #fff;
+  text-align: center;
+  font-style: italic;
+  line-height: 50px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  margin-top: 5px;
+}
+body .slideshow {
+  width: 1200px;
+  margin: 0 auto;
+  height: 460px;
+  background: url("../images/banner2.jpg") no-repeat;
+  background-size: cover;
+  position: relative;
+}
+body .slideshow .slideshow-nav-left {
+  z-index: 1;
+  width: 260px;
+  height: 460px;
+  background-color: #000;
+}
+body .slideshow .slideshow-nav-left ul li {
+  line-height: 46px;
+  padding-left: 40px;
+}
+body .slideshow .slideshow-nav-left ul li:hover {
+  background-color: #ff6700;
+}
+body .slideshow .slideshow-nav-left ul li:hover > .slideshow-nav-content {
+  display: block;
+}
+body .slideshow .slideshow-nav-left ul li a {
+  color: #fff;
+}
+body .slideshow .slideshow-nav-content {
+  position: absolute;
+  width: 700px;
+  height: 460px;
+  background-color: #fff;
+  left: 260px;
+  top: 0;
+  box-shadow: 3px 3px 3px #ccc;
+  display: none;
+  overflow: hidden;
+}
+body .slideshow .slideshow-nav-content > div:nth-child(1) > div {
+  width: 200px;
+  height: 76px;
+  background-color: #ff6700;
+  box-sizing: border-box;
+  padding-left: 40px;
+  line-height: 76px;
+  align-items: center;
+  margin-left: 10px;
+}
+body .slideshow .slideshow-nav-content > div:nth-child(1) > div a {
+  float: right;
+  display: block;
+  border: 1px solid #ff6700;
+  color: #ff6700;
+  line-height: 20px;
+  padding: 0 14px;
+  margin-top: 28px;
+}
+body .slideshow .slideshow-nav-content > div:nth-child(1) > div a:hover {
+  color: #fff;
+  background-color: #ff6700;
+}
+body .slideshow .slideshow-nav-content > div:nth-child(1) > div:nth-child(1) {
+  background: url("../images/liebiao_hongmin4.jpg") no-repeat;
+  background-size: 40px auto;
+  background-position: left center;
+}
+body .slideshow .slideshow-nav-content > div:nth-child(1) > div:nth-child(2) {
+  background: url("../images/liebiao_hongmin4_dd.jpg") no-repeat;
+  background-size: 40px auto;
+  background-position: left center;
+}
+body .slideshow .slideshow-nav-content > div:nth-child(1) > div:nth-child(3) {
+  background: url("../images/liebiao_hongmin4.jpg") no-repeat;
+  background-size: 40px auto;
+  background-position: left center;
+}
+body .slideshow .slideshow-nav-content > div:nth-child(1) > div:nth-child(4) {
+  background: url("../images/liebiao_hongmin4x.jpg") no-repeat;
+  background-size: 40px auto;
+  background-position: left center;
+}
+body .slideshow .slideshow-nav-content > div:nth-child(1) > div:nth-child(5) {
+  background: url("../images/liebiao_hongmin42.jpg") no-repeat;
+  background-size: 40px auto;
+  background-position: left center;
+}
+body .slideshow .slideshow-nav-content > div:nth-child(1) > div:nth-child(6) {
+  background: url("../images/liebiao_xiaomi5.jpg") no-repeat;
+  background-size: 40px auto;
+  background-position: left center;
+}
+body .slideshow .slideshow-nav-content > div:nth-child(2) {
+  position: relative;
+  left: 220px;
+  top: -455px;
+}
+body .slideshow .slideshow-nav-content > div:nth-child(2) > div {
+  width: 200px;
+  height: 76px;
+  background-color: #ff6700;
+  box-sizing: border-box;
+  padding-left: 40px;
+  line-height: 76px;
+  align-items: center;
+}
+body .slideshow .slideshow-nav-content > div:nth-child(2) > div a {
+  float: right;
+  display: block;
+  border: 1px solid #ff6700;
+  color: #ff6700;
+  line-height: 20px;
+  padding: 0 14px;
+  margin-top: 28px;
+}
+body .slideshow .slideshow-nav-content > div:nth-child(2) > div a:hover {
+  color: #fff;
+  background-color: #ff6700;
+}
+body .slideshow .slideshow-nav-content > div:nth-child(2) > div:nth-child(1) {
+  background: url("../images/liebiao_hongmin4.jpg") no-repeat;
+  background-size: 40px auto;
+  background-position: left center;
+}
+body .slideshow .slideshow-nav-content > div:nth-child(2) > div:nth-child(2) {
+  background: url("../images/liebiao_hongmin4_dd.jpg") no-repeat;
+  background-size: 40px auto;
+  background-position: left center;
+}
+body .slideshow .slideshow-nav-content > div:nth-child(2) > div:nth-child(3) {
+  background: url("../images/liebiao_hongmin4.jpg") no-repeat;
+  background-size: 40px auto;
+  background-position: left center;
+}
+body .slideshow .slideshow-nav-content > div:nth-child(2) > div:nth-child(4) {
+  background: url("../images/liebiao_hongmin4x.jpg") no-repeat;
+  background-size: 40px auto;
+  background-position: left center;
+}
+body .slideshow .slideshow-nav-content > div:nth-child(2) > div:nth-child(5) {
+  background: url("../images/liebiao_hongmin42.jpg") no-repeat;
+  background-size: 40px auto;
+  background-position: left center;
+}
+body .slideshow .slideshow-nav-content > div:nth-child(2) > div:nth-child(6) {
+  background: url("../images/liebiao_xiaomi5.jpg") no-repeat;
+  background-size: 40px auto;
+  background-position: left center;
+}
+body .slideshow .slideshow-nav-content > div:nth-child(3) {
+  position: relative;
+  left: 440px;
+  top: -910px;
+}
+body .slideshow .slideshow-nav-content > div:nth-child(3) > div {
+  width: 200px;
+  height: 76px;
+  background-color: #ff6700;
+  box-sizing: border-box;
+  padding-left: 40px;
+  line-height: 76px;
+  align-items: center;
+}
+body .slideshow .slideshow-nav-content > div:nth-child(3) > div a {
+  float: right;
+  display: block;
+  border: 1px solid #ff6700;
+  color: #ff6700;
+  line-height: 20px;
+  padding: 0 14px;
+  margin-top: 28px;
+}
+body .slideshow .slideshow-nav-content > div:nth-child(3) > div a:hover {
+  color: #fff;
+  background-color: #ff6700;
+}
+body .slideshow .slideshow-nav-content > div:nth-child(3) > div:nth-child(1) {
+  background: url("../images/liebiao_hongmin4.jpg") no-repeat;
+  background-size: 40px auto;
+  background-position: left center;
+}
+body .slideshow .slideshow-nav-content > div:nth-child(3) > div:nth-child(2) {
+  background: url("../images/liebiao_hongmin4_dd.jpg") no-repeat;
+  background-size: 40px auto;
+  background-position: left center;
+}
+body .slideshow .slideshow-nav-content > div:nth-child(3) > div:nth-child(3) {
+  background: url("../images/liebiao_hongmin4.jpg") no-repeat;
+  background-size: 40px auto;
+  background-position: left center;
+}
+body .slideshow .slideshow-nav-content > div:nth-child(3) > div:nth-child(4) {
+  background: url("../images/liebiao_hongmin4x.jpg") no-repeat;
+  background-size: 40px auto;
+  background-position: left center;
+}
+body .slideshow .slideshow-nav-content > div:nth-child(3) > div:nth-child(5) {
+  background: url("../images/liebiao_hongmin42.jpg") no-repeat;
+  background-size: 40px auto;
+  background-position: left center;
+}
+body .slideshow .slideshow-nav-content > div:nth-child(3) > div:nth-child(6) {
+  background: url("../images/liebiao_xiaomi5.jpg") no-repeat;
+  background-size: 40px auto;
+  background-position: left center;
+}
